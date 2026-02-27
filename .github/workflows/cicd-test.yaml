@@ -37,7 +37,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-        name: Build Clase
+    - name: Build Clase
       run: |
         mkdir build
         cp calculadora.py build/
