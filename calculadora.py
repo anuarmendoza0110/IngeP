@@ -3,4 +3,4 @@ class Calculadora:
         return a + b
 
     def subtract(self, a, b):
-        return a + b  # Cambio intencional para que falle la prueba
+        return a - b  # Corrección del método
